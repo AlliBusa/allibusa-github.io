@@ -1,11 +1,9 @@
 ### Site Settings ###
 title               : Alli Busa
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                    Hi!
 baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : AlliBusa/allibusa-github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : AlliBusa/allibusa.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -20,12 +18,13 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - pages/blog.html
 
 
 ### Author Info ###
 author:
   name              : Alli Busa
-  image             : https://allibusa.github.io/images/headshot.png#/images/headshot.png#https://i.imgur.com/uyDNQnn.jpg
+  image             : https://allibusa.github.io/images/headshot.png
 #  behance           : your_username
 # dribbble          : your_username
   email             : allibusa@protonmail.com
@@ -34,7 +33,7 @@ author:
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
+  linkedin          : Alli Busa
 #  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
