@@ -9,3 +9,5 @@
 - name: Python
   percentage: 70
   color: secondary
+
+- name: R
