@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Alli Busa
 description         : >-
-                    Hi!
+                    Hi! I am currently a Masters student of Mathematical Modeling. I like working with software and math to create cross-disciplinary and user-oriented solutions.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : AlliBusa/allibusa.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -19,7 +19,7 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   - pages/index.md
   - pages/blog.html
-
+  - pages/AlliBusa_Resume.pdf
 
 ### Author Info ###
 author:

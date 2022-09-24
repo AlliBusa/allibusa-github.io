@@ -3,9 +3,17 @@
     {
       "title"    : "SCOPE",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "Modeling",
       "url"      : "/blog/SCOPE",
-      "date"     : "2017-09-25 00:00:00 -0600"
+      "date"     : "2021-05-14 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "POE",
+      "category" : "",
+      "tags"     : "Rapid Prototyping",
+      "url"      : "/blog/POE",
+      "date"     : "2019-12-15 00:00:00 +0100"
     } 
   
 ]

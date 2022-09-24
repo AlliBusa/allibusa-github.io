@@ -21,12 +21,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Tags">
-  <meta property="og:description" content="Hi! I am currently a Masters student of Mathematical Modeling. I like working with software and math to create cross-disciplinary and user-oriented solutions.">
-  <meta property="og:image" content="https://allibusa.github.io/images/headshot.png">
+  <meta property="og:title" content="Scope">
+  <meta property="og:description" content="Senior capstone project">
+  <meta property="og:image" content="/images/scope_title.png">
 
-  <title>Tags</title>
-  <meta name="description" content="Hi! I am currently a Masters student of Mathematical Modeling. I like working with software and math to create cross-disciplinary and user-oriented solutions.">
+  <title>Scope</title>
+  <meta name="description" content="Senior capstone project">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -59,7 +59,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
       <a class="nav-item nav-link " href="https://allibusa.github.io/files/AlliBusa_Resume.pdf">Resume</a>
 
@@ -71,28 +71,17 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <!-- Collect tags from all posts --><!-- List tags & related posts -->
+  <p>A part of the Olin College education is Senior Capstone in Engineering, or SCOPE. SCOPE is a year-long class, in which students work in teams to execute a project of interest for a sponsor company. In my case, I worked with a team of five other students to determine the feasibility of micro fulfillment centers (smaller, more-localized warehouses) for Amazon Robotics.</p>
 
-<div class="py-3">
-  <h4 id="modeling">Modeling</h4>
-  <ol>
-  <a href="/blog/SCOPE"><li>SCOPE</li></a>
-    <small class="text-muted"> - 14 May 2021</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<p>In our team, we then further split up into software and mechanical subteams. The mechanical team worked on designing the space that people would work in, and I worked with 2 other people on the algorithm subteam, where we designed how a robot system could work in a predefined warehouse.</p>
 
-<div class="py-3">
-  <h4 id="rapid-prototyping">Rapid Prototyping</h4>
-  <ol>
-  <a href="/blog/POE"><li>POE</li></a>
-    <small class="text-muted"> - 15 December 2019</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<p>For this task, we created a model of the warehouse in Python that Amazon designed. We then added a time component and the demand: we generated orders that would come in at random intervals, a system to process those orders and the ability for robots to move in the warehouse as time passed.</p>
 
+<p>With that system in place, we conducted a literature review of task allocation and path planning algorithms. We were looking for an algorithm that could not only optimally allocate a given retrieval task to a robot in the warehouse, but which also adapted well to the intricacies of the system. For instance, there would be cases where -with the addition of more orders for instance- it would be more time-efficient for a robot to give its task to someone else. Likewise, the structure of the warehouse made it so that sometimes multiple robots were needed to retrieve an item.</p>
+
+<p>In our model, we implemented the Hungarian method, auction algorithm, network flows and multiple traveling salesman for task allocation. We simulated scenarios in which all but one variable is held constant, and in the end, we found that the mechanisms that surround the assignment algorithm, rather than the algorithm itself, have more of an impact on the efficiency of the system. Some examples of these mechanisms include how often the algorithm is run and where items are placed in the warehouse. Therefore, our recommendation for Amazon robotics was to switch their paradigm from thinking of algorithm efficiency to creating an efficient overall system.</p>
+
+<p><img src="/images/ar.PNG" alt="Final Poster" /></p>
 
 </div>
   </main>
