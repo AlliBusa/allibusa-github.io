@@ -1,5 +1,5 @@
 ---
-title: Montana
+title: NSF REU - Automatic Bird Song Recognition
 tags: [Research, Signal Processing]
 style: fill
 image: /images/montana/rwbb.png
